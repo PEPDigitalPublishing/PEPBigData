@@ -1,0 +1,6 @@
+framework module PEPBigData {
+  umbrella header "PEPBigData.h"
+
+  export *
+  module * { export * }
+}
