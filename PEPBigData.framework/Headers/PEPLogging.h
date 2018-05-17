@@ -8,8 +8,6 @@
 
 #import <Foundation/Foundation.h>
 #import "PEPLogPortManager.h"
-#import "PEPAspects.h"
-#import "PEPExceptionHandler.h"
 
 //对类的说明
 #define PEPLoggingPageImpression @"PEPLoggingPageImpression"
