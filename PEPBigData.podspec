@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
 
   s.name         = 'PEPBigData'
 
-  s.version      = '0.0.3'
+  s.version      = '0.0.4'
 
   s.summary      = '人教大数据统计SDK'
 
@@ -18,13 +18,11 @@ Pod::Spec.new do |s|
 
   s.vendored_frameworks = 'PEPBigData.framework'
 
-  s.resource     = 'PEPBigData.bundle'
-
   s.frameworks   = 'Foundation', 'CoreTelephony', 'UIKit', 'CoreLocation'
 
   s.ios.library  = 'sqlite3'
 
-  s.requires_arc = true
+  s.dependency 'Aspects'
 
 end
 
