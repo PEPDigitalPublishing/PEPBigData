@@ -42,4 +42,13 @@
  */
 - (void)setupWithConfiguration:(NSDictionary *)configs appId:(NSString *)appId accessKey:(NSString *)accessKey writeFlag:(BOOL)writeFlag;
 
+
+
+/**
+ 设置要收集打开关闭操作的页面
+ 
+ @param className 要收集打开关闭操作页面的类名,可传入基类
+ */
+- (void)registerAspectClass:(NSString *)className;
+
 @end
