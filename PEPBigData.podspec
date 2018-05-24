@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
 
   s.author       = { 'PEPBigData' => 'PEP' }
 
-  s.platform     = :ios, '8.0'
+  s.platform     = :ios, '7.0'
 
   s.homepage     = 'https://github.com/PEPDigitalPublishing/PEPBigData'
 
