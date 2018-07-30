@@ -39,8 +39,12 @@
  @param appId 产品id
  @param accessKey 授权key
  @param writeFlag 日志写入开关
+ @param accessKey 授权key
+ @param writeFlag 日志写入开关
+ @param getTokenUrl 获取token地址 默认传nil
+ @param getUploadUrl 获取数据上报地址的地址  默认传nil
  */
-- (void)setupWithConfiguration:(NSDictionary *)configs appId:(NSString *)appId accessKey:(NSString *)accessKey writeFlag:(BOOL)writeFlag;
+- (void)setupWithConfiguration:(NSDictionary *)configs appId:(NSString *)appId accessKey:(NSString *)accessKey writeFlag:(BOOL)writeFlag getTokenUrl:(NSString *)getTokenUrl getUploadUrl:(NSString *)getUploadUrl;
 
 
 
@@ -50,5 +54,8 @@
  @param className 要收集打开关闭操作页面的类名,可传入基类
  */
 - (void)registerAspectClass:(NSString *)className;
+
+
+
 
 @end
