@@ -39,8 +39,6 @@
  @param appId 产品id
  @param accessKey 授权key
  @param writeFlag 日志写入开关
- @param accessKey 授权key
- @param writeFlag 日志写入开关
 
  */
 - (void)setupWithConfiguration:(NSDictionary *)configs appId:(NSString *)appId accessKey:(NSString *)accessKey writeFlag:(BOOL)writeFlag;
@@ -50,8 +48,6 @@
 
  @param configs 配置 点击某个方法的时候写日志,手动埋点此参数传nil
  @param appId 产品id
- @param accessKey 授权key
- @param writeFlag 日志写入开关
  @param accessKey 授权key
  @param writeFlag 日志写入开关
  @param getTokenUrl 获取token地址 默认传nil
