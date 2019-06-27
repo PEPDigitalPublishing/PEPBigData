@@ -1,2 +1,2 @@
 # PEPBigData
-人教大数据统计SDK
+人教数据采集SDK
