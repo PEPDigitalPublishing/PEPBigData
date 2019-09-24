@@ -10,7 +10,7 @@
 		</data>
 		<key>Headers/PEPLogPortManager.h</key>
 		<data>
-		JR+9lsH3f6x51VvGoTzv6w2JUIQ=
+		wWtNzgeCBjRPP6p24G1m6qIUMYs=
 		</data>
 		<key>Headers/PEPLogging.h</key>
 		<data>
@@ -18,7 +18,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		Rh8hyrLjZZRFw8TZQkwAsEXRn+o=
+		W9bOQzlRwpW1NQWLxu6pHzF7j+s=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -42,11 +42,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			JR+9lsH3f6x51VvGoTzv6w2JUIQ=
+			wWtNzgeCBjRPP6p24G1m6qIUMYs=
 			</data>
 			<key>hash2</key>
 			<data>
-			95wAL5m4e06XrpchAEI16Yo7jgjv47ulr1P92Rpawgg=
+			SXS9ZvxIXo+KdhA5igH8oQ5Ub5f11lKoMuB330XMC6E=
 			</data>
 		</dict>
 		<key>Headers/PEPLogging.h</key>
