@@ -64,6 +64,7 @@
 /**
  * 适用于异常状态的全部参数提交。跳过内部的数据累积等待逻辑，立即将数据提交给服务器。
  * @param actionID 动作id
+ * @param actionType 动作类型
  * @param requestURL 接口请求地址
  * @param params 接口请求参数
  * @param retCode 状态码
@@ -74,6 +75,7 @@
  */
 
 - (void)onEventFromExceptionWithActionID:(NSString *)actionID
+                              actionType:(NSString *)actionType
                               requestURL:(NSString *)requestURL
                                   params:(NSString *)params
                                  retCode:(NSString *)retCode
