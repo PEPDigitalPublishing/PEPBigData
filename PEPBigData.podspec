@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
 
   s.name         = 'PEPBigData'
 
-  s.version      = '0.3.4'
+  s.version      = '0.3.5'
 
   s.summary      = '人教大数据统计SDK'
 
@@ -17,6 +17,8 @@ Pod::Spec.new do |s|
   s.source       = { :git => 'https://github.com/PEPDigitalPublishing/PEPBigData.git', :tag => s.version }
 
   s.vendored_frameworks = 'PEPBigData.framework'
+  
+  s.static_framework = true
 
   s.frameworks   = 'Foundation', 'CoreTelephony', 'UIKit', 'CoreLocation'
 
