@@ -23,6 +23,14 @@
 
 - (void)onEventWithActionId:(NSString *) actionId andObject:(NSString *) object;
 
+/**
+ * 适用于暂无状态及结果的动作。(实时同步使用)
+ * @param actionId 动作id
+ * @param object 被动者
+ */
+
+- (void)onEventWithActionIdNow:(NSString *) actionId andObject:(NSString *) object;
+
 
 /**
  * 适用于暂无状态及结果的动作。
