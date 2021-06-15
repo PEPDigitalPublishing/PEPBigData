@@ -25,6 +25,9 @@ Pod::Spec.new do |s|
   s.ios.library  = 'sqlite3'
 
   s.dependency 'Aspects'
+  
+    s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+  s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
 
 end
 
