@@ -12,8 +12,6 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios, '8.0'
   
-  s.license= { :type => “MIT”, :file => “LICENSE” }
-
   s.homepage     = 'https://github.com/PEPDigitalPublishing/PEPBigData'
 
   s.source       = { :git => 'https://github.com/PEPDigitalPublishing/PEPBigData.git', :tag => s.version }
