@@ -11,6 +11,8 @@ Pod::Spec.new do |s|
   s.author       = { 'PEPBigData' => 'PEP' }
 
   s.platform     = :ios, '8.0'
+  
+  s.license= { :type => “MIT”, :file => “LICENSE” }
 
   s.homepage     = 'https://github.com/PEPDigitalPublishing/PEPBigData'
 
