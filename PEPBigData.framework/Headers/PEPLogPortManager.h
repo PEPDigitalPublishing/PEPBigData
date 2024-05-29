@@ -54,6 +54,15 @@
 - (void)onEventWithActionId:(NSString *) actionId andObject:(NSString *) object andRetCode:(NSString *) retCode andRetInfo:(NSString *) retInfo;
 
 
+/**
+ * 适用于全部参数提交。
+ * @param actionId 动作id
+ * @param object 被动者
+ * @param groupType 事件中文名
+ * @param actionType 事件英文名
+ * @param logVersion 自定义版本号
+ */
+- (void)onEventWithActionId:(NSString *) actionId andObject:(NSString *) object andGroup_type:(NSString *)groupType andAction_type:(NSString *)actionType andLogVersion:(NSString *)logVersion;
 
 /**
  * 适用于全部参数提交。

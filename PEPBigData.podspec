@@ -4,13 +4,13 @@ Pod::Spec.new do |s|
 
   s.name         = 'PEPBigData'
 
-  s.version      = '0.5.5'
+  s.version      = '0.5.6'
 
   s.summary      = '人教大数据统计SDK'
 
   s.author       = { 'PEPBigData' => 'PEP' }
 
-  s.platform     = :ios, '10.0'
+  s.platform     = :ios, '11.0'
   
   s.homepage     = 'https://github.com/PEPDigitalPublishing/PEPBigData'
 
