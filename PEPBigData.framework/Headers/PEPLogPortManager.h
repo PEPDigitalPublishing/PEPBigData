@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import "PEPLogData.h"
 
 @interface PEPLogPortManager : NSObject 
 
@@ -63,6 +63,12 @@
  * @param logVersion 自定义版本号
  */
 - (void)onEventWithActionId:(NSString *) actionId andObject:(NSString *) object andGroup_type:(NSString *)groupType andAction_type:(NSString *)actionType andLogVersion:(NSString *)logVersion;
+
+/**
+ * 适用于全部参数提交。
+ * @param logData 动作模型
+ */
+- (void)onEventVersion4WithData:(PEPLogData *)logData;
 
 /**
  * 适用于全部参数提交。

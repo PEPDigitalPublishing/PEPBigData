@@ -18,5 +18,6 @@ FOUNDATION_EXPORT const unsigned char PEPBigDataVersionString[];
 
 #import "PEPLogging.h"
 #import "PEPLogPortManager.h"
+#import "PEPLogData.h"
 
 
