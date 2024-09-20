@@ -31,6 +31,16 @@
 
 - (void)onEventWithActionIdNow:(NSString *) actionId andObject:(NSString *) object;
 
+/**
+ * 适用于暂无状态及结果的动作。(实时同步使用)
+ * @param actionId 动作id
+ */
+
+- (void)onEventWithActionIdNow_withAllParams:(NSString *) actionId
+                                  actionType:(NSString *)actionType
+                                     retInfo:(NSString *)retInfo
+                              beginTimestamp:(NSTimeInterval)begin;
+
 
 /**
  * 适用于暂无状态及结果的动作。
