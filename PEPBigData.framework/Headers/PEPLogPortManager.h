@@ -36,11 +36,9 @@
  * @param actionId 动作id
  */
 
-- (void)onEventWithActionIdNow_withAllParams:(NSString *) actionId
-                                  actionType:(NSString *)actionType
-                                     retInfo:(NSString *)retInfo
-                              beginTimestamp:(NSTimeInterval)begin;
-
+- (void)onEventWithAllParamsNow:(NSString *) actionId
+                      andObject:(NSString *) object
+                        retInfo:(NSString *)retInfo;
 
 /**
  * 适用于暂无状态及结果的动作。
