@@ -79,6 +79,12 @@
 - (void)onEventVersion4WithData:(PEPLogData *)logData;
 
 /**
+ * 适用于大数据版本4数据提交(立即提交)
+ * @param logData 动作模型
+ */
+- (void)onEventVersion4WithData_Now:(PEPLogData *)logData;
+
+/**
  * 适用于全部参数提交。
  * @param actionId 动作id
  * @param object 被动者
