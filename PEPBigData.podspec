@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
 
   s.name         = 'PEPBigData'
 
-  s.version      = '0.5.15'
+  s.version      = '0.5.16'
 
   s.summary      = '人教大数据统计SDK'
 
